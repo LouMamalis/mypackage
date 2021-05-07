@@ -4,6 +4,8 @@
 # mypackage
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/LouMamalis/mypackage/workflows/R-CMD-check/badge.svg)](https://github.com/LouMamalis/mypackage/actions)
 <!-- badges: end -->
 
 The goal of mypackage is to …
@@ -31,10 +33,11 @@ hello()
 #>  ------ 
 #>     \   
 #>      \
-#>      _[_]_
-#>       (")
-#>   >--( : )--<
-#>     (__:__) [nosig]
+#>        '\__
+#>       (o )     ___
+#>       <>(_)(_)(___)
+#>         < < > >
+#>         ' ' ` `  [nosig]
 #> 
 ```
 
@@ -53,14 +56,11 @@ hello(name = "Bella")
 #>     \   
 #>      \  
 #>       \
-#>        \   _,
-#>       -==<' `
-#>           ) /
-#>          / (_.
-#>         |  ,-,`\
-#>          \\   \ \
-#>           `\,  \ \
-#>            ||\  \`|,
-#>  jgs      _|| `=`-'
-#>          ~~`~`
+#>          __
+#>         /o \
+#>       <=   |         ==
+#>         |__|        /===
+#>         |   \______/  =
+#>         \     ====   /
+#>          \__________/     [ab]
 ```
