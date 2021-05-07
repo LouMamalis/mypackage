@@ -1,0 +1,66 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# mypackage
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of mypackage is to …
+
+## Installation
+
+You can install the development version of my package from GitHub
+
+``` r
+devtools::install_github("LouMamalis/mypackage")
+```
+
+## Example
+
+This is a basic example which shows you how to print a generic greeting:
+
+``` r
+library(mypackage)
+## basic example code
+hello()
+#> [1] "Hello, world from Lou!"
+#> 
+#>  ----- 
+#> Hello world from Lou! 
+#>  ------ 
+#>     \   
+#>      \
+#>      _[_]_
+#>       (")
+#>   >--( : )--<
+#>     (__:__) [nosig]
+#> 
+```
+
+This is a basic example which shows you how to print a personalised
+greeting:
+
+``` r
+library(mypackage)
+## basic example code
+hello(name = "Bella")
+#> [1] "Hello, world from Lou!"
+#> 
+#>  ----- 
+#> Hello Bella from Lou! 
+#>  ------ 
+#>     \   
+#>      \  
+#>       \
+#>        \   _,
+#>       -==<' `
+#>           ) /
+#>          / (_.
+#>         |  ,-,`\
+#>          \\   \ \
+#>           `\,  \ \
+#>            ||\  \`|,
+#>  jgs      _|| `=`-'
+#>          ~~`~`
+```

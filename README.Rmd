@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# mypackage
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of mypackage is to ...
+
+## Installation
+
+You can install the development version of my package from GitHub
+
+``` r
+devtools::install_github("LouMamalis/mypackage")
+```
+
+## Example
+
+This is a basic example which shows you how to print a generic greeting:
+
+```{r example}
+library(mypackage)
+## basic example code
+hello()
+```
+
+This is a basic example which shows you how to print a personalised greeting:
+
+```{r example-specific}
+library(mypackage)
+## basic example code
+hello(name = "Bella")
+```
